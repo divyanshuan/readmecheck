@@ -4,10 +4,10 @@
 
 
 
-# Heading 1 #
+# Syllabus #
 
 
-
+<h6>
    <ol>
       <li>
         Write a program to read a matrix of size m & n form the keyboard and
@@ -83,3 +83,4 @@
         array.
       </li>
     </ol>
+  </h6>
