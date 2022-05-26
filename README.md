@@ -13,7 +13,7 @@
         Write a program to read a matrix of size m & n form the keyboard and
         display the same using function.
       </li>
-      <li>Program to make the use of inline function</li>
+      <li>Program to make the use of inline function. </li>
       <li>
         Write a function power which raises a number m to a power n. The
         function takes a double value of m and integer value of n and returns
@@ -34,8 +34,8 @@
         equate string, output strings.
       </li>
       <li>
-        Create the class TIMI: to store time in hours and minutes. Write a
-        friend function to add two TIME: objects
+        Create the class TIME: to store time in hours and minutes. Write a
+        friend function to add two TIME objects
       </li>
       <li>
         Create two classes DM and DIB. DM stores the distance in meter and
