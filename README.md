@@ -4,10 +4,10 @@
 
 
 
-# Syllabus #
+# Syllabus :book: #
 
 
-<h6>
+<p >
    <ol>
       <li>
         Write a program to read a matrix of size m & n form the keyboard and
@@ -83,4 +83,4 @@
         array.
       </li>
     </ol>
-  </h6>
+  </p>
