@@ -86,7 +86,7 @@
   </p>
   
   
-# Sessional   :hourglass:
+<!-- # Sessional   :hourglass: -->
 
 ## Sessional  :memo:
 
