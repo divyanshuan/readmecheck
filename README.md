@@ -102,10 +102,7 @@ Create a class TIME to store only minites (integer) and provide two ways to crea
 <ol>
 </p>
 <br/>
-
-
-
-<h2>Sessional 2</h2>:memo:
+## Sessional 2 :memo:
 
 <p>
 <ol>
