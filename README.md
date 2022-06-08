@@ -86,9 +86,11 @@
   </p>
   
   
-<!-- # Sessional   :hourglass: -->
+#   Sessional   :hourglass:
 
-## Sessional  :memo:
+
+##   Sessional  :memo:
+
 
 <p>
 <ol>
@@ -105,7 +107,9 @@ Create a class TIME to store only minites (integer) and provide two ways to crea
 
 
 
-## Sessional 2 :memo:
+##   Sessional 2  :memo:
+
+
 <p>
 <ol>
 <li>
