@@ -84,3 +84,35 @@
       </li>
     </ol>
   </p>
+  
+  
+# Sessional :hourglass:
+
+## Sessional 1 :memo:
+
+<p>
+<ol>
+<li>
+Create a class TIME to store only minites (integer) and provide two ways to create an object that is given by giving 
+</li>
+<ul>
+<li>Hours and Minutes</li>
+<li>only Minutes</li></ul>
+</li>
+<ol>
+</p>
+<br/>
+#
+## Sessional 2 :memo:
+
+<p>
+<ol>
+<li>
+Show how to overload * operator which creates the copies of the given string:
+<span> <b> Ex: "CUH"*3 gives "CUHCUHCUH</b> </span>
+ </li>
+<li>Create 2 Classes TIME & TIME2 where TIMEl stores hours & minutes and TIME2 stores only
+minutes. How to save one time object into another using user-detined to user-detined type
+conversion. Ex: t1 = 12 where t1 & 12 are TIME] & TIME2 objects respectively.</li>
+<ol>
+</p>
