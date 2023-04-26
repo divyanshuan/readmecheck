@@ -76,4 +76,11 @@ I am a student currently studying B.Tech, Computer Science(2024) in Central Univ
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=divyanshuan&layout=compact&langs_count=10&hide=jupyter%20notebook)](https://github.com/divyanshuan)
 
+
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=divyanshuan&" alt="Divyanshu Verma" /></p>
+
+
+
+
 ![Visitors](https://visitor-badge.glitch.me/badge?page_id=divyanshuan.visitor-badge)
