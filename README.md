@@ -1,86 +1,82 @@
+## About
 
-<img src="https://i.ibb.co/h2FPNj4/Divyansh22u.png" alt="Divyansh22u" border="0" width=100%>
-<h2 align="center" style="font-weight:500;font-size:28px;margin:10px;border-bottom:1px solid gray;">
-        Hi there, I'm <span style="font-family:cursive;font-weight:900;">Divyanshu👋</span>
-</h2>
+**ByteCodeLearners** is a group of students working together with patience and enthusiasm to create something <kbd>ctrl</kbd> + <kbd>N</kbd>.
 
-<p style="text-align:justify;">
-I am a student currently studying B.Tech, Computer Science(2024) in Central University of Haryana. I like exploring technologies and pretty much excited to learn new things of modern technical world.
-</p>
+> **Note**
+> Welcome to the backend repository for our server! This repository serves as the backbone of our application, supporting the existing backend infrastructure.
 
-## 🤘**Connect with Me**
+## Table of Contents
 
-<p align="center">
- <img alt="Coder GIF" style="border-radius:3px;" height=250 width=350 src="https://thumbs.gfycat.com/EvilNextDevilfish-small.gif" />
-</p>
-<div align="center">
-        
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=flat&logo=Facebook&logoColor=white)](https://www.facebook.com/divyanshu.anandverma)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=divyanshuvermaji@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=flat&logo=Instagram&logoColor=white)](https://www.instagram.com/invites/contact/?i=akhqcy5ckl60&utm_content=6iwuvgs)
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/divyanshuan/)
+- [Requirements](#requirements)
+- [Installation](#installation)
 
-</div>
+<a name="requirements"></a>
 
-## ✨**Technical Skills**
+## Requirements
 
-### Web Develpment
-<p align="left">
-    <img  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"  alt="react"  width="40"  height="40"/>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
-    <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/>
-<!-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> -->
-</p>
+| Package                              | Version   |
+| ------------------------------------ | --------- |
+| [Node.js](https://nodejs.org/en/)    | V14.19.1+ |
+| [npm](https://nodejs.org/en/)        | V6.14.16+ |
+| [Composer](https://getcomposer.org/) | V2.2.6+   |
+| [PHP](https://www.php.net/)          | V8.0.17+  |
+| [MySQL](https://www.mysql.com/)      | V8.0.27+  |
 
-### Programing Languages
-<p align="left">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/>
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/>
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>    
-</p>
+<a name="installation"></a>
 
+## Installation
 
-### Database
-<p align="left">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>  
-</p>
+> **Warning**
+> Make sure to follow the requirements first.
 
-### Operating Systems
-<p align="left">
-        <img src="https://www.vectorlogo.zone/logos/linux/linux-icon.svg" alt="linux" width="40" height="40"/>
-        <img src="https://www.vectorlogo.zone/logos/android/android-icon.svg" alt="andriod"width="40"height="40"/>
-        
-</p>
+Here is how you can run the project locally:
 
-### Tools
-<p align="left">
-        <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/>
-        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-        <img src="https://www.vectorlogo.zone/logos/github/github-icon.svg" alt="github" width="40" height="40"/>
-        
-</p>
+1. Clone this repo
 
-### Others
-<p align="left">
-        <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/>
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/>
-        <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/>
-</p>
+   ```sh
+   git clone https://github.com/ByteCodeLearners/BytecodeLearners_Backend.git
+   ```
 
-### **📈GitHub Stats**
+2. Go into the project root directory
 
-[![Divyanshu's github stats](https://github-readme-stats.vercel.app/api?username=divyanshuan&show_icons=true)](https://github.com/divyanshuan)
+   ```sh
+   cd BytecodeLearners_Backend
+   ```
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=divyanshuan&layout=compact&langs_count=10&hide=jupyter%20notebook)](https://github.com/divyanshuan)
+3. Copy .env.example file to .env file
+   ```sh
+   cp .env.example .env
+   ```
+4. Create database `bytecodebackend` (you can change database name)
 
+5. Go to `.env` file
 
+   - set database credentials (`DB_DATABASE=bytecodebackend`, `DB_USERNAME=root`, `DB_PASSWORD=`)
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=divyanshuan&" alt="Divyanshu Verma" /></p>
+6. Install PHP dependencies
 
+   ```sh
+   composer install
+   ```
 
+7. Generate key
 
+   ```sh
+   php artisan key:generate
+   ```
 
-![Visitors](https://visitor-badge.glitch.me/badge?page_id=divyanshuan.visitor-badge)
+8. Run migration
+
+   ```
+   php artisan migrate
+   ```
+
+9. Run server
+
+   ```sh
+   php artisan serve
+   ```
+
+10. Visit `localhost:8000` in your favorite browser.
+
+    > Make sure to follow your Laravel local Development Environment.
