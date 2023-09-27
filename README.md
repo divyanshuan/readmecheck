@@ -1,82 +1,150 @@
-## About
+## Welcome To BytcodeLearners
 
-**ByteCodeLearners** is a group of students working together with patience and enthusiasm to create something <kbd>ctrl</kbd> + <kbd>N</kbd>.
+This API Documentation help you to use all api provided by BytecodeLearners server. This will help you in further development and the changes in BytecodeLearners Official website.
 
 > **Note**
-> Welcome to the backend repository for our server! This repository serves as the backbone of our application, supporting the existing backend infrastructure.
+> The server url may change according to the hosting contact web administrator if url is not working.
+> current url : http://bytecodelearners.cuh.ac.in/
 
-## Table of Contents
+**Info**
+some url requires `Authentication` for access for that get token first [token](#gettoken).
 
-- [Requirements](#requirements)
-- [Installation](#installation)
+## APIs
 
-<a name="requirements"></a>
+- [Admin](#admin)
+- [Members](#members)
+- [Event Gallery](#eventgallery)
+- [Upcoming Event](#upcomingevent)
+- [Previous Event Gallery](#prevevntgallery)
 
-## Requirements
+<a name='admin'></a>
 
-| Package                              | Version   |
-| ------------------------------------ | --------- |
-| [Node.js](https://nodejs.org/en/)    | V14.19.1+ |
-| [npm](https://nodejs.org/en/)        | V6.14.16+ |
-| [Composer](https://getcomposer.org/) | V2.2.6+   |
-| [PHP](https://www.php.net/)          | V8.0.17+  |
-| [MySQL](https://www.mysql.com/)      | V8.0.27+  |
+# Admin
 
-<a name="installation"></a>
+> **Note**
+> There will be only one Admin account for the BytecodeLearners server.
 
-## Installation
+This section is intended for the Team Manager of BytecodeLearners Club, who has full access to the server. Some APIs within this section require authentication, and access will be limited to the Team Manager. For further development, the Team Manager and Technical Head will be responsible for sharing credentials and ensuring a stable and secure update process.
 
-> **Warning**
-> Make sure to follow the requirements first.
+### 1. Login
 
-Here is how you can run the project locally:
+<a name="gettoken"></a>
 
-1. Clone this repo
+- Description: This API is responsible for generating an `access_token` (JWT bearer) that will be essential for accessing all APIs that require authentication.
+- Url: `/api/user/login`
+- Method: `POST`
+- Authorization: `Not required`
 
-   ```sh
-   git clone https://github.com/ByteCodeLearners/BytecodeLearners_Backend.git
-   ```
+- Body: form-data
 
-2. Go into the project root directory
+  ```js
+  {
+      email:"<admin mail>",
+      pssword:""
 
-   ```sh
-   cd BytecodeLearners_Backend
-   ```
+  }
+  ```
 
-3. Copy .env.example file to .env file
-   ```sh
-   cp .env.example .env
-   ```
-4. Create database `bytecodebackend` (you can change database name)
+### 2. Change Regristration open
 
-5. Go to `.env` file
+- Description: This API is responsible for determining whether registration for current batch students is being accepted or not.
+- Url: `/api/user/setreg`
+- Method: `POST`
+- Authorization: `required`
+- Authorization: "Bearer `acces_token`"
 
-   - set database credentials (`DB_DATABASE=bytecodebackend`, `DB_USERNAME=root`, `DB_PASSWORD=`)
+- Body: form-data
 
-6. Install PHP dependencies
+  ```js
+  {
+      email:"<admin mail>",
+      is_registration_open: True/False
 
-   ```sh
-   composer install
-   ```
+  }
+  ```
 
-7. Generate key
+  > True: Registration for members is open for the current batch.
+  > False: Registration for members is not currently being accepted.
 
-   ```sh
-   php artisan key:generate
-   ```
+## 3. Register Admin
 
-8. Run migration
+- Description:This API endpoint is responsible for adding an admin account.
 
-   ```
-   php artisan migrate
-   ```
+  > **Note**
+  > This route will be disable on the server.for localhost uncomment this route from routes/api.php
 
-9. Run server
+- Url: `/api/user/register`
+- Method: `POST`
+- Authorization: `Not required`
 
-   ```sh
-   php artisan serve
-   ```
+- Body: form-data
 
-10. Visit `localhost:8000` in your favorite browser.
+  ```js
+  {
+      name:"< name>"
+      email:"<email>",
+      password:"<password>"
+      is_registration_open:False
 
-    > Make sure to follow your Laravel local Development Environment.
+  }
+  ```
+
+  > only one admin should be added.
+  > True: Registration for members is open for the current batch.
+  > False: Registration for members is not currently being accepted.
+
+<a name='members'></a>
+
+# Members
+
+This section is for adding BytecodeLearners members' information, as well as deleting and updating it. This information will be displayed on the BytecodeLearners official website.
+
+### 1. Get all Active Members
+
+- Description: This API endpoint retrieves a list of currently active BytecodeLearners members for display on the official website.
+- Url: `/api/member/getactive`
+- Method: `GET`
+- Authorization: `Not required`
+
+### 2. Get all Active Members by batch
+
+- Description: This API endpoint retrieves a list of currently active BytecodeLearners members of given batch for display on the official website.
+- Url: `/api/member/getactive/batch/{batch}`
+- Method: `GET`
+- Authorization: `Not required`
+
+### 3. Get all Members
+
+- Description: This API endpoint retrieves a list of all (currently active or inactive) BytecodeLearners members inactive member include new registrations.
+
+- Url: `/api/member/getactive`
+- Method: `GET`
+- Authorization: `required`
+- Authorization: "Bearer `acces_token`"
+
+## 3. Add Member / Register Member
+
+- Description:This API endpoint is responsible for registration for new members or adding new members .
+- Url: `/api/member/add`
+- Method: `POST`
+- Authorization: `Not required`
+
+- Body: form-data
+
+  ```js
+  {
+  firstName: "required",
+  lastName: "required",
+  email: "required",
+  mobile: "required",
+  batch: "required",
+  isActive: "False by default",
+  image: "profile.jpg",
+  github: "required",
+  linkedin: "required",
+  facebook: "nullable",
+  instagram: "nullable",
+  youtube: "nullable",
+  twitter: "nullable"
+  };
+  ```
